@@ -24,5 +24,5 @@ jobs:
       - name: Get all Flutter Packages
         run: flutter pub get
 
-      - name: Run Flutter Test
-        run: flutter test
+      - name: Run Flutter main
+        run: flutter main
